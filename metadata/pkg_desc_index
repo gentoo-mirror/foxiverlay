@@ -5,3 +5,4 @@ dev-python/python-msrplib 0.19.1: Client library for MSRP protocol and its relay
 dev-python/python-otr 1.2.0: Off-The-Record Messaging (OTR) protocol implementation for python
 dev-python/python-sipsimple 3.1.1: SIP SIMPLE client SDK is a Software Development Kit
 net-voip/blink 3.0.3: A state of the art, easy to use SIP client
+net-vpn/openfortivpn 1.4.0: A Fortinet compatible VPN client
