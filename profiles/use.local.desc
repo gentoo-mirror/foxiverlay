@@ -5,3 +5,11 @@
 app-office/kmymoney:hbci - Enable HBCI support using net-libs/aqbanking
 app-office/kmymoney:quotes - Enable Online Stock Quote retrieval
 app-office/kmymoney:weboob - Enable import of online banking transactions extracted by www-client/weboob
+dev-cpp/libjson-rpc-cpp:http-client - Build support for HTTP client using net-misc/curl
+dev-cpp/libjson-rpc-cpp:http-server - Build support for HTTP server using net-libs/libmicrohttpd
+dev-cpp/libjson-rpc-cpp:stubgen - Build header stub code generator (needed for development and when pregenerated headers are not bundled)
+dev-cpp/libjson-rpc-cpp:tcp-socket-client - Build support for Tcp Socket client
+dev-cpp/libjson-rpc-cpp:tcp-socket-server - Build support for Tcp Socket server
+net-p2p/ethminer:cuda - Add NVIDIA Cuda support
+net-p2p/ethminer:opencl - Add OpenCL support
+net-p2p/ethminer:stratum - Add Stratum support

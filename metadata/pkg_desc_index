@@ -1,5 +1,6 @@
 app-office/kmymoney 9999: Personal finance manager by KDE
 app-office/libalkimia 9999: Library with common classes and functionality used by KDE finance applications
+dev-cpp/libjson-rpc-cpp 0.7.0: JSON-RPC (1.0 & 2.0) framework for C++
 dev-libs/kasync 0.2.0: C++ library for controlling asynchronous tasks
 dev-libs/roc 1.5.0: Radeon Open Compute Thunk Interface
 dev-libs/sink 0.3.0: A data access layer handling synchronization, caching and indexing
@@ -8,7 +9,7 @@ dev-python/python-msrplib 0.19.1: Client library for MSRP protocol and its relay
 dev-python/python-otr 1.2.0: Off-The-Record Messaging (OTR) protocol implementation for python
 dev-python/python-sipsimple 3.1.1: SIP SIMPLE client SDK is a Software Development Kit
 kde-apps/kdav2 0.1.0: DAV protocol implementation with KJobs
-mail-client/kube 0.3.1: A mail client by KDE
 net-libs/kimap2 0.2.0: Library for interacting with IMAP servers - successor of kimap
+net-p2p/ethminer 0.12.0: Ethereum miner with CUDA and stratum support
 net-voip/blink 3.0.3: A state of the art, easy to use SIP client
 net-vpn/openfortivpn 1.4.0: A Fortinet compatible VPN client
