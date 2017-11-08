@@ -15,7 +15,7 @@ LICENSE="LGPL-2.1+"
 SLOT="0"
 IUSE="ocl-icd ocl20"
 
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 SRC_URI="https://01.org/sites/default/files/${P}-source.tar.gz"
 S=${WORKDIR}/Beignet-${PV}-Source
 
