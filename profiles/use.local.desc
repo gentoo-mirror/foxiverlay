@@ -12,6 +12,16 @@ dev-cpp/libjson-rpc-cpp:tcp-socket-client - Build support for Tcp Socket client
 dev-cpp/libjson-rpc-cpp:tcp-socket-server - Build support for Tcp Socket server
 dev-libs/beignet:ocl-icd - Enable compatibility with the dev-libs/ocl-icd OpenCL ICD loader
 dev-libs/beignet:ocl20 - Enable experimental OpenCL 2.0 support on Skylake and newer architectures
+net-misc/electrum:audio_modem - Enable plugin to support Audio Modem
+net-misc/electrum:cli - Enables the CLI interface
+net-misc/electrum:cosign - Enable plugin to support multisig wallets between multiple Electrum clients
+net-misc/electrum:digitalbitbox - Enable plugin to support Digital Bitbox hardware wallet
+net-misc/electrum:email - Enable plugin to support emailing invoices
+net-misc/electrum:greenaddress_it - Enable plugin to verify GreenAddress.it instant transactions
+net-misc/electrum:qrcode - Enable QR code scanning with media-gfx/zbar
+net-misc/electrum:sync - Enable plugin to sync wallet metadata across multiple Electrum clients
+net-misc/electrum:trustedcoin_com - Enable plugin to use two-factor service by TrustedCoin.com
+net-misc/electrum:vkb - Enable plugin for virtual keyboard
 net-p2p/ethminer:cuda - Add NVIDIA Cuda support
 net-p2p/ethminer:opencl - Add OpenCL support
 net-p2p/ethminer:stratum - Add Stratum support
