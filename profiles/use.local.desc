@@ -10,8 +10,7 @@ dev-cpp/libjson-rpc-cpp:http-server - Build support for HTTP server using net-li
 dev-cpp/libjson-rpc-cpp:stubgen - Build header stub code generator (needed for development and when pregenerated headers are not bundled)
 dev-cpp/libjson-rpc-cpp:tcp-socket-client - Build support for Tcp Socket client
 dev-cpp/libjson-rpc-cpp:tcp-socket-server - Build support for Tcp Socket server
-dev-libs/beignet:ocl-icd - Enable compatibility with the dev-libs/ocl-icd OpenCL ICD loader
-dev-libs/beignet:ocl20 - Enable experimental OpenCL 2.0 support on Skylake and newer architectures
+dev-util/idea-community:custom-jdk - Install and use IntelliJ's custom JRE.
 net-misc/electrum:audio_modem - Enable plugin to support Audio Modem
 net-misc/electrum:cli - Enables the CLI interface
 net-misc/electrum:cosign - Enable plugin to support multisig wallets between multiple Electrum clients

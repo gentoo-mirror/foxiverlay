@@ -1,7 +1,6 @@
 app-office/kmymoney 9999: Personal finance manager by KDE
 app-office/libalkimia 9999: Library with common classes and functionality used by KDE finance applications
 dev-cpp/libjson-rpc-cpp 0.7.0: JSON-RPC (1.0 & 2.0) framework for C++
-dev-libs/beignet 1.3.2: OpenCL implementation for Intel GPUs
 dev-libs/roct-thunk-interface 1.5.0: Radeon Open Compute Thunk Interface
 dev-python/btchip-python 0.1.22: Python communication library for Ledger Hardware Wallet products.
 dev-python/jsonrpclib 0.3.1: python implementation of the JSON-RPC spec (1.0 and 2.0)
@@ -10,6 +9,7 @@ dev-python/python-msrplib 0.19.1: Client library for MSRP protocol and its relay
 dev-python/python-otr 1.2.0: Off-The-Record Messaging (OTR) protocol implementation for python
 dev-python/python-sipsimple 3.1.1: SIP SIMPLE client SDK is a Software Development Kit
 dev-python/python-trezor 0.7.16: Client side implementation for TREZOR-compatible Bitcoin hardware wallets.
+dev-util/idea-community 2017.2.5.172.4343.14 2017.3.1.173.3942.27: A complete toolset for web, mobile and enterprise development
 kde-apps/kdav2 0.1.0: DAV protocol implementation with KJobs
 net-misc/electrum 3.0.1: User friendly Bitcoin client
 net-p2p/ethminer 0.12.0: Ethereum miner with CUDA and stratum support
