@@ -2,3 +2,14 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+net-misc/electrum:audio_modem - Enable plugin to support Audio Modem
+net-misc/electrum:cli - Enables the CLI interface
+net-misc/electrum:cosign - Enable plugin to support multisig wallets between multiple Electrum clients
+net-misc/electrum:digitalbitbox - Enable plugin to support Digital Bitbox hardware wallet
+net-misc/electrum:email - Enable plugin to support emailing invoices
+net-misc/electrum:greenaddress_it - Enable plugin to verify GreenAddress.it instant transactions
+net-misc/electrum:ledger - Enable plugin for ledger wallets
+net-misc/electrum:qrcode - Enable QR code scanning with media-gfx/zbar
+net-misc/electrum:sync - Enable plugin to sync wallet metadata across multiple Electrum clients
+net-misc/electrum:trustedcoin_com - Enable plugin to use two-factor service by TrustedCoin.com
+net-misc/electrum:vkb - Enable plugin for virtual keyboard
