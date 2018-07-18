@@ -65,6 +65,8 @@ RDEPEND="${PYTHON_DEPS}
 		dev-python/PyQt5[gui,widgets,${PYTHON_USEDEP}]
 	)
 	ledger? (
+		dev-libs/libsecp256k1
+		dev-python/websocket-client[${PYTHON_USEDEP}]
 	    dev-python/btchip-python[${PYTHON_USEDEP}]
 	)
 	ncurses? ( dev-lang/python )
