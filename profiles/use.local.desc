@@ -14,3 +14,6 @@ net-misc/electrum:qrcode - Enable QR code scanning with media-gfx/zbar
 net-misc/electrum:sync - Enable plugin to sync wallet metadata across multiple Electrum clients
 net-misc/electrum:trustedcoin_com - Enable plugin to use two-factor service by TrustedCoin.com
 net-misc/electrum:vkb - Enable plugin for virtual keyboard
+net-p2p/ethminer:cuda - Add NVIDIA Cuda support
+net-p2p/ethminer:opencl - Add OpenCL support
+net-p2p/ethminer:stratum - Add Stratum support
