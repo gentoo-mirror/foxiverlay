@@ -1,5 +1,4 @@
 dev-libs/roct-thunk-interface 1.5.0: Radeon Open Compute Thunk Interface
-dev-libs/sink 0.7.0: A data access layer handling synchronization, caching and indexing
 dev-python/btchip-python 0.1.27: Python communication library for Ledger Hardware Wallet products.
 dev-python/jsonrpclib 0.3.1: python implementation of the JSON-RPC spec (1.0 and 2.0)
 dev-python/python-application 2.0.0: Basic building blocks for python applications
@@ -7,8 +6,6 @@ dev-python/python-msrplib 0.19.1: Client library for MSRP protocol and its relay
 dev-python/python-otr 1.2.0: Off-The-Record Messaging (OTR) protocol implementation for python
 dev-python/python-sipsimple 3.1.1: SIP SIMPLE client SDK is a Software Development Kit
 dev-python/python-trezor 0.7.16: Client side implementation for TREZOR-compatible Bitcoin hardware wallets.
-kde-apps/kdav2 0.1.0: DAV protocol implementation with KJobs
-mail-client/kube 0.7.0: A mail client by KDE
 net-misc/electrum 3.2.2: User friendly Bitcoin client
 net-p2p/ethminer 0.13.0: Ethereum miner with CUDA and stratum support
 net-voip/blink 3.0.3: A state of the art, easy to use SIP client
