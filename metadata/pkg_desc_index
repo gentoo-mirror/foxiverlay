@@ -1,8 +1,2 @@
 dev-libs/roct-thunk-interface 1.5.0: Radeon Open Compute Thunk Interface
-dev-python/btchip-python 0.1.27: Python communication library for Ledger Hardware Wallet products.
-dev-python/python-application 2.0.0: Basic building blocks for python applications
-dev-python/python-msrplib 0.19.1: Client library for MSRP protocol and its relay extension
-dev-python/python-otr 1.2.0: Off-The-Record Messaging (OTR) protocol implementation for python
-dev-python/python-sipsimple 3.1.1: SIP SIMPLE client SDK is a Software Development Kit
 net-p2p/ethminer 0.13.0: Ethereum miner with CUDA and stratum support
-net-voip/blink 3.0.3: A state of the art, easy to use SIP client
