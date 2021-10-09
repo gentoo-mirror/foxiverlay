@@ -16,6 +16,7 @@ IUSE=""
 RDEPEND=">=kde-frameworks/kirigami-5.85.0
 	>=dev-python/pyside2-5.15.1-r1
 	>=dev-python/python-dateutil-2.8.2
+	>=dev-db/tinydb-4.5.2
 	"
 
 PYTHON_COMPAT=( python{3_6,3_8,3_9} )
