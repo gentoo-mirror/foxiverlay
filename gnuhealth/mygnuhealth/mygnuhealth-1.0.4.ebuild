@@ -16,6 +16,7 @@ IUSE=""
 RDEPEND=">=kde-frameworks/kirigami-5.85.0
 	>=dev-python/pyside2-5.15.1-r1
 	>=dev-python/python-dateutil-2.8.2
+	>=dev-python/matplotlib-3.4.2
 	>=dev-db/tinydb-4.5.2
 	"
 

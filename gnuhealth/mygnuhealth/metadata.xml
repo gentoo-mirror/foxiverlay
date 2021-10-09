@@ -3,10 +3,10 @@
 <pkgmetadata>
   <maintainer type="person">
     <email>koalinux@gmail.com</email>
-    <description>Jos√ Pekkarinen</description>
+    <description>Jos√É Pekkarinen</description>
   </maintainer>
   <longdescription>
-  	MyGNUHealth is the GNUHealth Personal Health Record application for desktop
+	MyGNUHealth is the GNUHealth Personal Health Record application for desktop
 	and mobile devices that integrates with the GNU Health Federation.
   </longdescription>
 </pkgmetadata>
