@@ -1,2 +1,3 @@
 dev-libs/roct-thunk-interface 1.5.0: Radeon Open Compute Thunk Interface
+gnuhealth/mygnuhealth 1.0.4: MyGNUHealth personal medical record application
 net-p2p/ethminer 0.13.0: Ethereum miner with CUDA and stratum support
