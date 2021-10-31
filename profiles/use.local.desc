@@ -5,3 +5,4 @@
 net-p2p/ethminer:cuda - Add NVIDIA Cuda support
 net-p2p/ethminer:opencl - Add OpenCL support
 net-p2p/ethminer:stratum - Add Stratum support
+sys-apps/xdg-desktop-portal:screencast - Enable screencast portal using media-video/pipewire
