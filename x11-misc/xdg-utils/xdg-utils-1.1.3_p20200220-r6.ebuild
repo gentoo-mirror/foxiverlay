@@ -27,7 +27,7 @@ RDEPEND="
 			dev-perl/X11-Protocol
 		)
 	)
-	selinux? ( sec-policy/selinux-xdg )
+	selinux? ( sec-policy/selinux-base-policy )
 	x11-misc/shared-mime-info
 	x11-apps/xprop
 	x11-apps/xset

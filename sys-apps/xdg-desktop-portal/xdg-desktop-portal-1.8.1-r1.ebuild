@@ -28,7 +28,7 @@ DEPEND="
 "
 RDEPEND="${DEPEND}
 	sys-apps/dbus
-	selinux? ( sec-policy/selinux-xdg )
+	selinux? ( sec-policy/selinux-base-policy )
 "
 
 src_configure() {
