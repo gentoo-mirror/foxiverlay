@@ -4,7 +4,7 @@
 EAPI="7"
 
 IUSE=""
-MODS="xserver sddm"
+MODS="sddm"
 BASEPOL="2.20210203-r1"
 POLICY_FILES="sddm.fc sddm.if sddm.te"
 
