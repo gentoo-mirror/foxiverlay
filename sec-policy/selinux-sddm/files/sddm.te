@@ -1,5 +1,13 @@
 policy_module(sddm, 1.0)
 
+gen_require(`
+  type xdm_t;
+')
+
+gen_require(`
+  type staff_t;
+')
+
 #============= xdm_t ==============
 allow xdm_t user_tty_device_t:chr_file { relabelfrom relabelto };
 allow xdm_t tty_device_t:chr_file { relabelfrom relabelto };
