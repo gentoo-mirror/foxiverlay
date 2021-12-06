@@ -2,17 +2,25 @@ policy_module(sddm, 1.0)
 
 gen_require(`
   type xdm_t;
-')
-
-gen_require(`
+  type xdg_data_t;
+  type xdm_tmpfs_t;
   type staff_t;
+  type user_runtime_t;
+  type user_tty_device_t;
+  type tty_device_t;
+  type xkb_var_lib_t;
+  type var_log_t;
+  type usr_t;
+  type accountsd_var_lib_t;
+  type boolean_t;
+
 ')
 
 #============= xdm_t ==============
 allow xdm_t user_tty_device_t:chr_file { relabelfrom relabelto };
 allow xdm_t tty_device_t:chr_file { relabelfrom relabelto };
-allow xdm_t xkb_var_lib_t:dir { search getattr add_name write };
-allow xdm_t xkb_var_lib_t:file { getattr map create open read write };
+allow xdm_t xkb_var_lib_t:dir { search getattr remove_name add_name create write };
+allow xdm_t xkb_var_lib_t:file { getattr map create rename lock open read write };
 allow xdm_t var_log_t:file { getattr append };
 allow xdm_t usr_t:dir { watch };
 allow xdm_t usr_t:file { execute };
