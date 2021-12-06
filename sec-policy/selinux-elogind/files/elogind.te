@@ -1,0 +1,9 @@
+policy_module(elogind, 1.0)
+
+gen_require(`
+  type systemd_logind_t;
+  type xdm_runtime_t;
+')
+
+#============= systemd_logind_t ==============
+allow systemd_logind_t xdm_runtime_t:dir { open read };
