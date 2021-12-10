@@ -23,7 +23,7 @@ allow xdm_t xkb_var_lib_t:dir { search getattr remove_name add_name create write
 allow xdm_t xkb_var_lib_t:file { getattr map create rename lock open read write };
 allow xdm_t var_log_t:file { getattr append };
 allow xdm_t usr_t:dir { watch };
-allow xdm_t usr_t:file { execute };
+allow xdm_t usr_t:file { execute execute_no_trans };
 allow xdm_t accountsd_var_lib_t:dir { search };
 allow xdm_t boolean_t:file { open read };
 allow xdm_t xdm_t:process { setcap execmem };
