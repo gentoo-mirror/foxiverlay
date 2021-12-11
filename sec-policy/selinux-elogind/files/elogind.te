@@ -9,5 +9,5 @@ gen_require(`
 
 #============= systemd_logind_t ==============
 allow systemd_logind_t xdm_runtime_t:dir { open read };
-allow systemd_logind_t initrc_runtime_t:file { watch };
+allow systemd_logind_t initrc_runtime_t:file { watch open write };
 allow systemd_logind_t session_dbusd_runtime_t:dir { open read };
