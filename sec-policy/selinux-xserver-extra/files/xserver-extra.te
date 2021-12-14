@@ -1,0 +1,8 @@
+policy_module(xserver-extra, 1.0)
+
+gen_require(`
+  type xdm_t;
+')
+
+#============= xdm_t ==============
+allow xdm_t xdm_t:process { execmem };
