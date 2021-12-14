@@ -6,4 +6,4 @@ gen_require(`
 ')
 
 #============= xdm_t ==============
-allow xdm_t xauth_exec_t:file { getattr execute execute_no_trans open read };
+allow xdm_t xauth_exec_t:file { getattr map execute execute_no_trans open read };
