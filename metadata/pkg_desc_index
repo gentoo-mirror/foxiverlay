@@ -5,6 +5,7 @@ net-p2p/ethminer 0.13.0: Ethereum miner with CUDA and stratum support
 sec-policy/selinux-dbus-extra 2.20210203: SELinux policy for dbus-extra
 sec-policy/selinux-elogind 2.20210203: SELinux policy for elogind
 sec-policy/selinux-kwin 2.20210203: SELinux policy for kwin
+sec-policy/selinux-policykit-extra 2.20210203: SELinux policy for policykit-extra
 sec-policy/selinux-qtquickcontrols2 2.20210203: SELinux policy for qtquickcontrols2
 sec-policy/selinux-sddm 2.20210203: SELinux policy for sddm
 sec-policy/selinux-xauth 2.20210203: SELinux policy for xauth
