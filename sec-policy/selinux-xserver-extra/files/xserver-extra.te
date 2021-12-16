@@ -10,3 +10,4 @@ allow xdm_t xdm_t:process { execmem };
 
 #============= xserver_t ==============
 allow xserver_t xserver_t:process { execmem };
+allow xserver_t xserver_t:capability { dac_read_search };
