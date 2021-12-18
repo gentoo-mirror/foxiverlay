@@ -32,6 +32,7 @@ allow xdm_t xdg_data_t:dir { search getattr add_name write };
 allow xdm_t xdg_data_t:file { getattr create open read write };
 allow xdm_t user_runtime_t:sock_file { create };
 allow xdm_t xdg_config_t:dir { search };
+allow xdm_t xdm_t:capability { net_admin };
 
 #============= staff_t ==============
 allow staff_t usr_t:file { entrypoint };
