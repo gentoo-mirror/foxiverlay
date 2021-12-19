@@ -4,6 +4,7 @@ gnuhealth/mygnuhealth 1.0.4: MyGNUHealth personal medical record application
 net-p2p/ethminer 0.13.0: Ethereum miner with CUDA and stratum support
 sec-policy/selinux-dbus-extra 2.20210203: SELinux policy for dbus-extra
 sec-policy/selinux-elogind 2.20210203: SELinux policy for elogind
+sec-policy/selinux-gpg-extra 2.20210203: SELinux policy for gpg-extra
 sec-policy/selinux-kwin 2.20210203: SELinux policy for kwin
 sec-policy/selinux-openrc-extra 2.20210203: SELinux policy for openrc-extra
 sec-policy/selinux-policykit-extra 2.20210203: SELinux policy for policykit-extra
