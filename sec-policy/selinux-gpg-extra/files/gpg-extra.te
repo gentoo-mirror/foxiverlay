@@ -9,6 +9,7 @@ gen_require(`
 
 #============= staff_t ==============
 allow staff_t sysctl_crypto_t:dir { search };
+allow staff_t sysctl_crypto_t:file { read };
 
 #============= gpg_agent_t ==============
-allow gpg_agent_t user_tmp_t:dir { getattr };
+allow gpg_agent_t user_tmp_t:dir { getattr search };
