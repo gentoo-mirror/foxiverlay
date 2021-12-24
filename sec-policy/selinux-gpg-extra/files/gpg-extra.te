@@ -13,3 +13,4 @@ allow staff_t sysctl_crypto_t:file { getattr open read };
 
 #============= gpg_agent_t ==============
 allow gpg_agent_t user_tmp_t:dir { getattr add_name search open write };
+allow gpg_agent_t user_tmp_t:sock_file { create };
