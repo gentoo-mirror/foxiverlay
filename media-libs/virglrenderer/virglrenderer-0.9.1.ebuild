@@ -35,8 +35,10 @@ S=${WORKDIR}/${PN}-${P}
 src_configure() {
 	local emesonargs=(
 		-Ddefault_library=$(usex static-libs both shared)
-		-Dvenus-experimental=$(usex vulkan)
 	)
+	if use vulkan; then
+		emesonargs+=(-Dvenus-experimental=true)
+	fi
 
 	meson_src_configure
 }
