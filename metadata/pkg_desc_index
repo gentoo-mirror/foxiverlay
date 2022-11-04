@@ -1,6 +1,6 @@
 dev-db/tinydb 4.5.2: TinyDB is a lightweight document oriented database
 gnuhealth/mygnuhealth 1.0.4: MyGNUHealth personal medical record application
-media-libs/virglrenderer 0.9.1: library used implement a virtual 3D GPU used by qemu
+media-libs/virglrenderer 0.9.1 0.10.1: library used implement a virtual 3D GPU used by qemu
 sec-policy/selinux-dbus-extra 2.20210203: SELinux policy for dbus-extra
 sec-policy/selinux-elogind 2.20210203: SELinux policy for elogind
 sec-policy/selinux-gpg-extra 2.20210203: SELinux policy for gpg-extra
