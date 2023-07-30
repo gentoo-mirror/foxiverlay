@@ -11,5 +11,5 @@ LICENSE=LGPL-2.1
 RDEPEND=dev-libs/glib:2 dev-libs/json-glib sys-fs/fuse:0 geolocation? ( >=app-misc/geoclue-2.5.3:2.0 ) screencast? ( >=media-video/pipewire-0.3:= ) sys-apps/dbus selinux? ( sec-policy/selinux-base-policy )
 SLOT=0
 SRC_URI=https://github.com/flatpak/xdg-desktop-portal/releases/download/1.10.1/xdg-desktop-portal-1.10.1.tar.xz
-_eclasses_=toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	5f4bb0758df2e483babf68cd517078ca
+_eclasses_=toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=4590200332296b2625ecc9a2c9ecceb4
