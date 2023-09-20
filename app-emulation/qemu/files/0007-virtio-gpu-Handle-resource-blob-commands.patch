@@ -1,7 +1,7 @@
-From bba2a8483e0b284ca45e5cf97a3c58fa0d3200e0 Mon Sep 17 00:00:00 2001
+From d17b4650a1945a7299e05e71c88aa8c8b0d4dd82 Mon Sep 17 00:00:00 2001
 From: Antonio Caggiano <antonio.caggiano@collabora.com>
 Date: Wed, 20 Sep 2023 07:04:34 +0300
-Subject: [PATCH 7/9] virtio-gpu: Handle resource blob commands
+Subject: [PATCH 7/8] virtio-gpu: Handle resource blob commands
 MIME-Version: 1.0
 Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: 8bit
@@ -18,7 +18,7 @@ Signed-off-by: Antonio Caggiano <antonio.caggiano@collabora.com>
  4 files changed, 174 insertions(+), 9 deletions(-)
 
 diff --git a/hw/display/virtio-gpu-virgl.c b/hw/display/virtio-gpu-virgl.c
-index 6d03f0f2e2..ae478bd2b1 100644
+index 9db456102b..6c7637db75 100644
 --- a/hw/display/virtio-gpu-virgl.c
 +++ b/hw/display/virtio-gpu-virgl.c
 @@ -17,7 +17,9 @@
@@ -32,7 +32,7 @@ index 6d03f0f2e2..ae478bd2b1 100644
  #include "ui/egl-helpers.h"
  
  #include <virglrenderer.h>
-@@ -427,6 +429,145 @@ static void virgl_cmd_get_capset(VirtIOGPU *g,
+@@ -428,6 +430,145 @@ static void virgl_cmd_get_capset(VirtIOGPU *g,
      g_free(resp);
  }
  
@@ -178,7 +178,7 @@ index 6d03f0f2e2..ae478bd2b1 100644
  void virtio_gpu_virgl_process_cmd(VirtIOGPU *g,
                                        struct virtio_gpu_ctrl_command *cmd)
  {
-@@ -496,6 +637,15 @@ void virtio_gpu_virgl_process_cmd(VirtIOGPU *g,
+@@ -497,6 +638,15 @@ void virtio_gpu_virgl_process_cmd(VirtIOGPU *g,
      case VIRTIO_GPU_CMD_GET_EDID:
          virtio_gpu_get_edid(g, cmd);
          break;
@@ -262,7 +262,7 @@ index 657117314f..df7b22cd0a 100644
  virtio_gpu_scanout_blob_bswap(struct virtio_gpu_set_scanout_blob *ssb)
  {
 diff --git a/include/hw/virtio/virtio-gpu.h b/include/hw/virtio/virtio-gpu.h
-index 1b4095ffbd..9e096b2040 100644
+index 3d2269b9d9..7a236a494f 100644
 --- a/include/hw/virtio/virtio-gpu.h
 +++ b/include/hw/virtio/virtio-gpu.h
 @@ -58,6 +58,8 @@ struct virtio_gpu_simple_resource {

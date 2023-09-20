@@ -1,7 +1,7 @@
-From f8e3189b0dc3924cc40051c0b0184fceb0c286e2 Mon Sep 17 00:00:00 2001
+From 5e90af261543fe17173c4fb7410bbe327dc38cc1 Mon Sep 17 00:00:00 2001
 From: "Dr. David Alan Gilbert" <dgilbert@redhat.com>
 Date: Tue, 19 Sep 2023 19:05:29 +0300
-Subject: [PATCH 3/9] virtio: Add shared memory capability
+Subject: [PATCH 3/8] virtio: Add shared memory capability
 MIME-Version: 1.0
 Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: 8bit

@@ -320,8 +320,7 @@ PATCHES=(
 	"${FILESDIR}"/0005-virtio-gpu-Support-Venus-capset.patch
 	"${FILESDIR}"/0006-virtio-gpu-Initialize-Venus.patch
 	"${FILESDIR}"/0007-virtio-gpu-Handle-resource-blob-commands.patch
-	"${FILESDIR}"/0008-ui-gtk-Hack-DPI.patch
-	"${FILESDIR}"/0009-hack-Do-not-check-resource-in-assign-UUID.patch
+	"${FILESDIR}"/0008-hack-Do-not-check-resource-in-assign-UUID.patch
 )
 
 QA_PREBUILT="

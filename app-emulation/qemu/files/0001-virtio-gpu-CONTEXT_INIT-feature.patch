@@ -1,7 +1,7 @@
 From 57ddf5d895f34132a9f37a7ebb959884e0ed05c5 Mon Sep 17 00:00:00 2001
 From: Antonio Caggiano <antonio.caggiano@collabora.com>
 Date: Tue, 19 Sep 2023 18:38:32 +0300
-Subject: [PATCH 1/9] virtio-gpu: CONTEXT_INIT feature
+Subject: [PATCH 1/8] virtio-gpu: CONTEXT_INIT feature
 MIME-Version: 1.0
 Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: 8bit

@@ -1,7 +1,7 @@
-From 176b6c8684b385c68933eadd3ae81118895ed33a Mon Sep 17 00:00:00 2001
+From 63e8df20c93a705160996f90f25ec6a82174c6cf Mon Sep 17 00:00:00 2001
 From: Antonio Caggiano <antonio.caggiano@collabora.com>
 Date: Tue, 19 Sep 2023 19:16:26 +0300
-Subject: [PATCH 4/9] virtio-gpu: Resource UUID
+Subject: [PATCH 4/8] virtio-gpu: Resource UUID
 MIME-Version: 1.0
 Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: 8bit
@@ -32,7 +32,7 @@ index 2336a0ca15..54d6894c59 100644
  virtio_gpu_cmd_res_xfer_toh_3d(uint32_t res) "res 0x%x"
  virtio_gpu_cmd_res_xfer_fromh_3d(uint32_t res) "res 0x%x"
 diff --git a/hw/display/virtio-gpu-base.c b/hw/display/virtio-gpu-base.c
-index 4f2b0ba1f3..ea3f79e512 100644
+index b4c081906e..13f27088c4 100644
 --- a/hw/display/virtio-gpu-base.c
 +++ b/hw/display/virtio-gpu-base.c
 @@ -235,6 +235,7 @@ virtio_gpu_base_get_features(VirtIODevice *vdev, uint64_t features,
@@ -102,7 +102,7 @@ index 1fb317f995..bce05636dd 100644
          cmd->error = VIRTIO_GPU_RESP_ERR_UNSPEC;
          break;
 diff --git a/include/hw/virtio/virtio-gpu.h b/include/hw/virtio/virtio-gpu.h
-index 84633b1845..1b4095ffbd 100644
+index de4f624e94..3d2269b9d9 100644
 --- a/include/hw/virtio/virtio-gpu.h
 +++ b/include/hw/virtio/virtio-gpu.h
 @@ -275,6 +275,8 @@ int virtio_gpu_create_mapping_iov(VirtIOGPU *g,
