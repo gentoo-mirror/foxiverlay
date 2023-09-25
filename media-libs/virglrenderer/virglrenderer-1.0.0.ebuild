@@ -9,9 +9,8 @@ if [[ ${PV} == "9999" ]] ; then
 	EGIT_REPO_URI="https://anongit.freedesktop.org/git/virglrenderer.git"
 	inherit git-r3
 else
-	MY_P="${PN}-${P}"
 	SRC_URI="https://gitlab.freedesktop.org/virgl/${PN}/-/archive/${P}/${MY_P}.tar.gz -> ${P}.tar.gz"
-	S="${WORKDIR}/${MY_P}"
+	S="${WORKDIR}/${P}"
 
 	KEYWORDS="amd64 ~arm64 ~loong ~riscv x86"
 fi
@@ -40,7 +39,7 @@ src_configure() {
 
 	emesonargs+=(-Dvideo=true)
 	if use vulkan; then
-		emesonargs+=(-Dvenus-experimental=true)
+		emesonargs+=(-Dvenus=true)
 		emesonargs+=(-Drender-server=true)
 	fi
 
