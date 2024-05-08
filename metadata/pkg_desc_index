@@ -1,4 +1,4 @@
-app-emulation/qemu 8.2.2: QEMU + Kernel-based Virtual Machine userland tools
+app-emulation/qemu 9.0.0: QEMU + Kernel-based Virtual Machine userland tools
 media-libs/virglrenderer 0.10.4 1.0.0: library used implement a virtual 3D GPU used by qemu
 sec-policy/selinux-dbus-extra 2.20210203: SELinux policy for dbus-extra
 sec-policy/selinux-elogind 2.20210203: SELinux policy for elogind
